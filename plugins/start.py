@@ -112,7 +112,7 @@ async def start_command(client: Client, message: Message):
             try:
                 # Construct caption for videos/documents
                 if msg.video or msg.document:
-                    description = caption_content or filename or "<b>Video from @Anime_Telugu_English_VS</b>"
+                    description = caption_content or filename or "<b>Video from @koianimes</b>"
                     caption = f"{description}\n{CUSTOM_CAPTION}"
                 else:
                     caption = caption_content or text_content  # Use original caption/text for non-media
@@ -378,7 +378,7 @@ async def not_joined(client: Client, message: Message):
                 except Exception as e:
                     print(f"Error with chat {chat_id}: {e}")
                     return await temp.edit(
-                        f"<b><i>! Eʀʀᴏʀ, Cᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴏ sᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇs @clutch008</i></b>\n"
+                        f"<b><i>! Eʀʀᴏʀ, Cᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴏ sᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇs @ROHITREDDY69</i></b>\n"
                         f"<blockquote expandable><b>Rᴇᴀsᴏɴ:</b> {e}</blockquote>"
                     )
 
@@ -407,7 +407,7 @@ async def not_joined(client: Client, message: Message):
     except Exception as e:
         print(f"Final Error: {e}")
         await temp.edit(
-            f"<b><i>! Eʀʀᴏʀ, Cᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴏ sᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇs @clutch008</i></b>\n"
+            f"<b><i>! Eʀʀᴏʀ, Cᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴏ sᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇs @ROHITREDDY69</i></b>\n"
             f"<blockquote expandable><b>Rᴇᴀsᴏɴ:</b> {e}</blockquote>"
         )
 
